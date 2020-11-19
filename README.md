@@ -9,6 +9,7 @@ Ceci ne regroupe que les ressources nécéssaires pour le pseudo cours.
 
 
 - le fichier source initial du jeu des allumettes, avec IA aléatoire : [solutionAlluInit.py](solutionAlluInit.py)
+
 - [le fichier colab du min max](https://colab.research.google.com/drive/1OxcmON8R3eDTfXYQBKgaQ2Q8LSpyIgdS?usp=sharing)
 
 
@@ -80,3 +81,5 @@ Juste pour voir, essayez d'évaluer l'arbre du jeu imaginaire suivant :
 ## Reste à coder ca...
 
 Et ca, on va le faire ensemble...
+
+- le fichier d'eval : [test_eval.py](test_eval.py)
