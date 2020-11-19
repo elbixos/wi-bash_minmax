@@ -1,0 +1,32 @@
+digraph D {
+    node[shape=record];
+
+    A  [label="[2,1,0,0], True" ];
+    B0 [label="[1,1,0,0], False"];
+    B1 [label="[0,1,0,0], False \n val=1"];
+    B2 [label="[2,0,0,0], False"];
+
+    A->B0,B1,B2
+
+    B01 [label="[0,1,0,0], True \n val=-1"];
+    B02 [label="[1,0,0,0], True \n val=-1"];
+
+    B0->B01,B02
+
+    B10 [label="[0,0,0,0], True \n val=1"];
+    B1-> B10
+
+    B20 [label="[1,0,0,0], True \n val=-1"];
+    B21 [label="[0,0,0,0], True \n val=1"];
+    B2-> B20,B21
+
+    B010 [label="[0,0,0,0], False \n val=-1"];
+    B01->B010
+
+    B020 [label="[0,0,0,0], False \n val=-1"];
+    B02->B020
+
+    B200 [label="[0,0,0,0], False \n val=-1" ];
+    B20->B200
+
+}
