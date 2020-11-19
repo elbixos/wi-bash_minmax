@@ -10,7 +10,6 @@ Ceci ne regroupe que les ressources nécéssaires pour le pseudo cours.
 
 - le fichier source initial du jeu des allumettes, avec IA aléatoire : [solutionAlluInit.py](solutionAlluInit.py)
 - [le fichier colab du min max](https://colab.research.google.com/drive/1OxcmON8R3eDTfXYQBKgaQ2Q8LSpyIgdS?usp=sharing)
-- une image d'un arbre de jeu imaginaire : ![imageArbre](arbreDeJeu.png)
 
 
 ## le plan (vite fait)
@@ -26,6 +25,12 @@ Exemple pour le jeu des allumettes
 
 en partant d'un plateau plus simple, pour simplifier :
 ![arbreAllumettesSimple](allumettesSimple.png)
+
+Dans cette image, chaque noeud est défini par :
+- le plateau (nombre d'allumettes par ligne)
+- True si c'est a l'IA de jouer, False sinon
+
+Au départ, c'est donc a l'IA de jouer et il y a 2 allumettes sur la première ligne, et 1 sur la seconde.
 
 
 ### Evaluations dans cet arbre
