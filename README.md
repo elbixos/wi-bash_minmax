@@ -76,3 +76,7 @@ Bon, ca c'est le principe.
 Juste pour voir, essayez d'évaluer l'arbre du jeu imaginaire suivant :
 
 ![imageArbre](arbreDeJeu.png)
+
+## Reste à coder ca...
+
+Et ca, on va le faire ensemble...
