@@ -91,7 +91,7 @@ def choisirIA(plateau):
     return bestStrategy
 
 
-plateau = [2,2,1,0]
+plateau = [1,3,5,3]
 print(plateau)
 #resu = evaluer(plateau,IA)
 #print ("Pg principal : Evaluation de ",plateau,IA,":", resu)
